@@ -6,8 +6,7 @@ Success
 * With the entire 144 files to parse, it would have taken AT LEAST 18 hours, but all of that was condensed to 1.86 seconds
 
 Learned
-> If a list of dict/series is passed and the keys are all contained in the DataFrame’s index, the order of the columns in the resulting DataFrame will be unchanged.
-
-Iteratively appending rows to a DataFrame can be more computationally intensive than a single concatenate. A better solution is to append those rows to a list and then concatenate the list with the original DataFrame all at once.
-
-> I can try unpacking or just converting each txt file to a csv file FIRST
+* If a list of dict/series is passed and the keys are all contained in the DataFrame’s index, the order of the columns in the resulting DataFrame will be unchanged.
+* Iteratively appending rows to a DataFrame can be more computationally intensive than a single concatenate. A better solution is to append those rows to a list and then concatenate the list with the original DataFrame all at once.
+* I can try unpacking or just converting each txt file to a csv file FIRST
+* I need an engine (sqlalchemy to write to the database 
